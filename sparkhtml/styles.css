@@ -53,40 +53,43 @@ h2 {
   color: black;
 }
 
-.lightrect1 {
+.ls1 {
   position: absolute;
-  width: 400.02px;
-  height: 600.45px;
-  left: 900px;
-  top: 58.33px;
-
-  background: rgba(245, 217, 146, 0.12);
-  border-radius: 76px;
-  transform: rotate(12deg);
+  height: 600px;
+  width: auto;
+  left: -200px;
+  top: -30px;
 }
 
 
-.lightrect2 {
+.ls2 {
   position: absolute;
-  width: 594.64px;
-  height: 558.35px;
-  left: -331px;
-  top: 10px;
-
-  background: rgba(245, 217, 146, 0.12);
-  border-radius: 76px;
-  transform: rotate(-50deg);
+  height: 400px;
+  width: auto;
+  left: 200px;
+  top: 500px;
 }
 
-
-.rect {
+.ls3 {
   position: absolute;
-  width: 720.33px;
-  height: 465.37px;
-  left: 800.33px;
-  top: -200px;
+  height: 600px;
+  width: auto;
+  left: 700px;
+  top: 100px;
+}
 
-  background: linear-gradient(240.64deg, #FFBD13 9.9%, rgba(172, 183, 229, 0) 76.03%), #FF6E6E;
-  border-radius: 76px;
-  transform: rotate(22deg);
+.s1 {
+  position: absolute;
+  height: 600px;
+  width: auto;
+  left: 700px;
+  top: -350px;
+}
+
+.s2 {
+  position: absolute;
+  height: 500px;
+  width: auto;
+  left: 850px;
+  top: 550px;
 }
