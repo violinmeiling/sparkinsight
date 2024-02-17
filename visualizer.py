@@ -1,75 +1,26 @@
-from nomic import AtlasDataset
-from nomic import embed
 import numpy as np
 import spacy
 nlp = spacy.load('en_core_web_md') 
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure, show
+import requests
+from resumeparse import skilllist
+import json
+from tkinter import *
+import pyautogui
 
+  
+# import messagebox from tkinter module 
+import tkinter.messagebox 
 #location - 29
 #remote - 9
 #min salary - 4
 #max salary - 2
 #worktype - 6
 #title - 27
-
-dataset = AtlasDataset('linkedindescription')
-map = dataset.maps[0]
-originaldata = (np.array(map.data.df)).tolist()
-topicarray = (np.array(map.topics.df)).tolist()
-
-jobindexes = []
-workingdata = []
-
-def applyfilters(internship, state, min, max, remote):
-    filters = []
-    if (internship):
-        filters.append(lambda x: x[6] == "Internship")
-    if (state != ''):
-        filters.append(lambda x: str(x[29][len(x[29])-2:len(x[29])]) == state)
-    if (min != -1):
-        filters.append(lambda x: x[4] > 10)
-    if (max != -1):
-        filters.append(lambda x: x[2] < 40000)
-    if (remote):
-        filters.append(lambda x: x[9] == 1)
-    
-    for entry in originaldata:
-        addentry = True
-        for i in range(len(filters)-1):
-            if not filters[i](entry):
-                addentry = False
-        if (addentry):
-            jobindexes.append(originaldata.index(entry))
-
-    for jobid in jobindexes:
-        workingdata.append([[jobid], [(originaldata[jobid][27] + " " + topicarray[jobid][1] + " " + topicarray[jobid][2]).split(" ")][0]])
-
-def pullsimilar(searchkey):
-    scores = []
-    jobstoreturn = []
-    for entry in workingdata:
-        i = 0
-        result = 0
-        for word in entry[1]:
-            #print(word)
-            tokens = nlp(searchkey + " " + word)
-            if len(tokens) == 2:
-                token1, token2 = tokens[0], tokens[1] 
-                similarity = token1.similarity(token2)
-                result += similarity
-                i += 1
-        result = result / i
-        scores.append([int(entry[0][0]), result])
-    scoresnp = np.array(scores)
-    scoresnp_sorted = scoresnp[scoresnp[:, 1].argsort()[::-1]]
-    scores_sorted = scoresnp_sorted.tolist()[0:10]
-
-    for entry in scores_sorted:
-        xvector = map.embeddings.df.at[entry[0], 'x']
-        yvector = map.embeddings.df.at[entry[0], 'y']
-        jobstoreturn.append([originaldata[int(entry[0])][27], xvector, yvector])
-    return(jobstoreturn)
+#jobid - 1
+#description - 28
+#url - 30
 
 class ZoomPan:
     def __init__(self):
@@ -101,7 +52,7 @@ class ZoomPan:
             else:
                 # deal with something that should never happen
                 scale_factor = 1
-                print(event.button)
+                #print(event.button)
 
             new_width = (cur_xlim[1] - cur_xlim[0]) * scale_factor
             new_height = (cur_ylim[1] - cur_ylim[0]) * scale_factor
@@ -151,33 +102,60 @@ class ZoomPan:
 
         #return the function
         return onMotion
+    
+import ctypes  # An included library with Python install.
+def Mbox(title, text, style):
+    return ctypes.windll.user32.MessageBoxW(0, text, title, style)
+
 
 def plot(rawlist):
     x = []
     y = []
     n = []
 
-    for item in rawlist:
-        n.append(item[0])
-        x.append(item[1])
-        y.append(item[2])
+    xavg = 0
+    yavg = 0
+
+    for i in range(len(rawlist)-1):
+        #print(rawlist[i])
+        n.append(rawlist[i][0])
+        x.append(float(rawlist[i][1]))
+        y.append(float(rawlist[i][2]))
+        xavg += ((len(rawlist) - i)/len(rawlist)) * float(rawlist[i][1])
+        yavg += ((len(rawlist) - i)/len(rawlist)) * float(rawlist[i][2])
+
+    xavg = xavg / len(rawlist)
+    yavg = yavg / len(rawlist)
 
     fig = figure()
 
     ax = fig.add_subplot(111, xlim=(-50,50), ylim=(-50,50), autoscale_on=False)
+
     
-    ax.scatter(x,y)
+    
+    ax.scatter(x,y, picker=True)
+    ax.plot(xavg, yavg, 'ro')
+    ax.text(xavg, yavg, "You")
     for i, txt in enumerate(n):
         ax.text(x[i], y[i], txt)
     scale = 1.1
     zp = ZoomPan()
     figZoom = zp.zoom_factory(ax, base_scale = scale)
     figPan = zp.pan_factory(ax)
+
+    def onpick3(event):
+        index = event.ind
+        ind = int(index)
+        message = str('Job title: ' + str(rawlist[ind][0]) + '\n' + 'Company ID: ' + str(rawlist[ind][3]) + '\n' + 'Description: ' + str(rawlist[ind][4]) + '\n' + 'Linkedin URL: ' + str(rawlist[ind][5]) + '\n\n' + '----------------------------------------------------------' + '\n')
+        print(message)
+
+    fig.canvas.mpl_connect('pick_event', onpick3)
+
     show()
 
-applyfilters(True, "MN", -1, -1, False)
-if len(jobindexes) == 0:
-    print("no jobs found :(")
-else:
-    plot(pullsimilar("education"))
-
+f = open('joblist.json')
+ 
+# returns JSON object as 
+# a dictionary
+data = json.load(f)
+plot(data)
