@@ -1,1 +1,1 @@
-# WorkWise
+# SparkInsight
