@@ -2,32 +2,32 @@
     {
         "data": {
             "certifications": [
-                "Launched program to provide freshman orchestra students with music lessons from upperclassmen orchestra tutors"
+                ""
             ],
             "dateOfBirth": null,
             "education": [],
             "emails": [
-                "meissimo@seas.upenn.edu"
+                ""
             ],
             "location": null,
             "name": {
-                "raw": "Meiling R. Mathur",
-                "last": "Mathur",
-                "first": "Meiling",
+                "raw": "",
+                "last": "",
+                "first": "",
                 "title": "",
-                "middle": "R."
+                "middle": ""
             },
             "objective": "",
             "phoneNumbers": [
-                "952.594.4474"
+                ""
             ],
             "phoneNumberDetails": [
                 {
-                    "rawText": "952.594.4474",
-                    "formattedNumber": "+1 952-594-4474",
-                    "countryCode": "US",
-                    "internationalCountryCode": 1,
-                    "nationalNumber": "(952) 594-4474"
+                    "rawText": "",
+                    "formattedNumber": "",
+                    "countryCode": "",
+                    "internationalCountryCode": ,
+                    "nationalNumber": ""
                 }
             ],
             "publications": [],
@@ -40,7 +40,7 @@
                         491.71512,
                         79.508606
                     ],
-                    "text": "Meiling R. Mathur Computer and Information Science | University of Pennsylvania '27 952.594.4474 | meissimo@seas.upenn.edu | www.linkedin.com/in/meilingmathur",
+                    "text": "",
                     "pageIndex": 0,
                     "sectionType": "PersonalDetails"
                 },
@@ -51,7 +51,7 @@
                         382.422,
                         289.4117
                     ],
-                    "text": "Work Securian Financial | Engineering Analyst Intern Jun 2023 - Aug 2023 - Development on internal webpages to ensure adherence to company branding guidelines and Web Content Accessibility Guidelines (WCAG) - Skills: Agile Software Development, GitHub, collaboration Claire Givens Violins | Intern Jun 2021- Aug 2022 - Developed a web application using Wordpress's REST API in 2022 to streamline the store's online product management system - Served customers over the phone and in-person - Led instrument showings and contributed to the sales of 10 instruments - Skills: Backend development, experience in fast-paced team environment Medication Therapy Management | Web Developer Jun 2021- Sep 2021 - Designed and developed company website on Wordpress",
+                    "text": "",
                     "pageIndex": 0,
                     "sectionType": "WorkExperience"
                 },
@@ -62,7 +62,7 @@
                         382.8946,
                         443.83063
                     ],
-                    "text": "Research Natural Language Processing for human language mimicry 2021- 2022 - Trained a machine to imitate the conversational style of a human subject using a neural network and data processing techniques Machine learning for detecting warning signs of carpal tunnel syndrome in violinists 2022 - 2023 - Built and evaluated the performance of three neural network models in screening for warning signs of carpal tunnel syndrome in violinists when provided with EMG readings of bioelectrical activity in the left arm",
+                    "text": "",
                     "pageIndex": 0,
                     "sectionType": "Projects"
                 },
@@ -73,7 +73,7 @@
                         583.9931,
                         273.8598
                     ],
-                    "text": "Awards State Winner — Minnesota Aspirations in Computing Award (2023) - National Center for Women and Information Technology 1st Place + State Qualifier — Twin Cities Regional Science Fair (2023) Bausch and Lomb Honorary Science Award (2022) - University of Rochester National Merit Finalist (2023) AP Scholar with Distinction (2021& 2022)",
+                    "text": "",
                     "pageIndex": 0,
                     "sectionType": "Achievements"
                 },
@@ -84,7 +84,7 @@
                         521.41425,
                         443.83063
                     ],
-                    "text": "Skills Machine Learning Research Product Design Web Development Agile Software Development Team Management Collaboration Technical Writing Public Speaking",
+                    "text": "",
                     "pageIndex": 0,
                     "sectionType": "Skills/Interests/Languages"
                 },
@@ -95,7 +95,7 @@
                         589.1363,
                         736.94336
                     ],
-                    "text": "Activities Penn Aerospace Club | Flight Data and Research 2023 - Present - Designing and conducting research study to determine the effects of altitude on solar cell efficiency through repeated launches of high-altitude weather balloon and statistical analysis of sensor data - Designed team website on Figma and working on backend integration of real-time RockBlock data with React.js Develop for Good | Product Designer 2023 - Present - Created website for HARK, a non-profit organization serving Historically Black Colleges in Louisiana, Arkansas, and Texas, to host their 2024 virtual Southern Wit writers' conference - Conducted UX surveys, designed UI in Figma, and worked under supervision of project managers and client Scherzo Music Tutoring | Founder 2022 - 2023 - Launched program to provide freshman orchestra students with music lessons from upperclassmen orchestra tutors - Over 1000 minutes of private lessons were provided by tutors to students during the 2022-2023 school year Minnetonka Breezes Newspaper | Deputy Editor of Arts and Entertainment 2020 - 2023 - Led team of staff writers, planned fundraising campaign, interviewed professionals, and published monthly articles Minnetonka High School Writing Center | Writing coach 2021- 2023 - Led inquiry project in 2022 to research how to improve the experiences of ELL students in the Writing Center - Led the Language and Power team and organized a letter-writing campaign in 2022 to elected officials in Minnesota - Received Writing Center Exemplary Service Award for contributions to students and leadership team in 2023",
+                    "text": "",
                     "pageIndex": 0,
                     "sectionType": "Extracurriculars/Leadership"
                 }
@@ -104,7 +104,7 @@
                 {
                     "id": 565675761,
                     "emsiId": "KS124JB619VXG6RQ810C",
-                    "name": "Leadership",
+                    "name": "",
                     "lastUsed": null,
                     "numberOfMonths": null,
                     "type": "soft_skill",
@@ -119,7 +119,7 @@
                 {
                     "id": 565675762,
                     "emsiId": "KS1202B652YN84D9KXMX",
-                    "name": "User Experience Design (UX)",
+                    "name": "",
                     "lastUsed": null,
                     "numberOfMonths": null,
                     "type": "hard_skill",
@@ -134,7 +134,7 @@
                 {
                     "id": 565675770,
                     "emsiId": "KS7G0Z579RRP7TRC2L9T",
-                    "name": "Surveys",
+                    "name": "",
                     "lastUsed": null,
                     "numberOfMonths": null,
                     "type": "hard_skill",
@@ -149,7 +149,7 @@
                 {
                     "id": 565675779,
                     "emsiId": "KS124CH623PFBJS8T5KM",
-                    "name": "Github",
+                    "name": "",
                     "lastUsed": "2023-08-01",
                     "numberOfMonths": 2,
                     "type": "hard_skill",
@@ -164,7 +164,7 @@
                 {
                     "id": 565675780,
                     "emsiId": "KS1208P6ZMZ4N872Y7X5",
-                    "name": "Application Programming Interface (API)",
+                    "name": "",
                     "lastUsed": "2022-08-01",
                     "numberOfMonths": 14,
                     "type": "hard_skill",
@@ -179,7 +179,7 @@
                 {
                     "id": 565675785,
                     "emsiId": "KS1203C6N9B52QGB4H67",
-                    "name": "Research",
+                    "name": "",
                     "lastUsed": null,
                     "numberOfMonths": null,
                     "type": "soft_skill",
@@ -219,7 +219,7 @@
                 {
                     "id": 565675787,
                     "emsiId": "KS125716TLTGH6SDHJD1",
-                    "name": "Integration",
+                    "name": "",
                     "lastUsed": null,
                     "numberOfMonths": null,
                     "type": "soft_skill",
@@ -234,7 +234,7 @@
                 {
                     "id": 565675789,
                     "emsiId": "KS7AASDV6UOE7VFBGF4D",
-                    "name": "Collaboration",
+                    "name": "",
                     "lastUsed": "2023-08-01",
                     "numberOfMonths": 2,
                     "type": "soft_skill",
@@ -264,7 +264,7 @@
                 {
                     "id": 565675790,
                     "emsiId": "KS123X777H5WFNXQ6BPM",
-                    "name": "Sales",
+                    "name": "",
                     "lastUsed": "2022-08-01",
                     "numberOfMonths": 14,
                     "type": "soft_skill",
@@ -279,7 +279,7 @@
                 {
                     "id": 565688638,
                     "emsiId": "KS4425C7820LCHZS7VGX",
-                    "name": "Writing",
+                    "name": "",
                     "lastUsed": null,
                     "numberOfMonths": null,
                     "type": "soft_skill",
@@ -288,7 +288,7 @@
                 {
                     "id": 565688639,
                     "emsiId": "KS4418877WW06JL2XBNJ",
-                    "name": "Technical Writing",
+                    "name": "",
                     "lastUsed": null,
                     "numberOfMonths": null,
                     "type": "hard_skill",
@@ -297,7 +297,7 @@
                 {
                     "id": 565688640,
                     "emsiId": "KS120L96KMYTDJ48NRSH",
-                    "name": "Software Development",
+                    "name": "",
                     "lastUsed": "2023-08-01",
                     "numberOfMonths": 2,
                     "type": "hard_skill",
@@ -306,7 +306,7 @@
                 {
                     "id": 565688641,
                     "emsiId": "KS1218W78FGVPVP2KXPX",
-                    "name": "Management",
+                    "name": "",
                     "lastUsed": "2022-08-01",
                     "numberOfMonths": 17,
                     "type": "soft_skill",
@@ -315,7 +315,7 @@
                 {
                     "id": 565688645,
                     "emsiId": "KS1282K6QK68NJHMG8V2",
-                    "name": "Product Design",
+                    "name": "",
                     "lastUsed": null,
                     "numberOfMonths": null,
                     "type": "hard_skill",
@@ -324,7 +324,7 @@
                 {
                     "id": 565688646,
                     "emsiId": "ES5269FD2583B0B9875C",
-                    "name": "Figma (Design Software)",
+                    "name": "",
                     "lastUsed": null,
                     "numberOfMonths": null,
                     "type": "hard_skill",
@@ -333,7 +333,7 @@
                 {
                     "id": 565688649,
                     "emsiId": "KS1261Z68KSKR1X31KS3",
-                    "name": "Machine Learning",
+                    "name": "",
                     "lastUsed": null,
                     "numberOfMonths": null,
                     "type": "hard_skill",
@@ -342,7 +342,7 @@
                 {
                     "id": 565688650,
                     "emsiId": "KS7G7VR6YH8GPD094D20",
-                    "name": "Non-Profit Organization",
+                    "name": "",
                     "lastUsed": null,
                     "numberOfMonths": null,
                     "type": "hard_skill",
@@ -351,7 +351,7 @@
                 {
                     "id": 565688652,
                     "emsiId": "ES9C0ADA3C9397DD6AED",
-                    "name": "Agile Software Development",
+                    "name": "",
                     "lastUsed": "2023-08-01",
                     "numberOfMonths": 2,
                     "type": "hard_skill",
@@ -360,7 +360,7 @@
                 {
                     "id": 565675771,
                     "emsiId": "KS126LF64WPZ94FVHH9S",
-                    "name": "Mimicry",
+                    "name": "",
                     "lastUsed": null,
                     "numberOfMonths": null,
                     "type": "hard_skill",
@@ -375,7 +375,7 @@
                 {
                     "id": 565675776,
                     "emsiId": "KS123KB741K818T8FXL6",
-                    "name": "Inquiry",
+                    "name": "",
                     "lastUsed": null,
                     "numberOfMonths": null,
                     "type": "hard_skill",
@@ -390,7 +390,7 @@
                 {
                     "id": 565675777,
                     "emsiId": "KS122CL64848WM1MVNSQ",
-                    "name": "Fundraising",
+                    "name": "",
                     "lastUsed": null,
                     "numberOfMonths": null,
                     "type": "hard_skill",
@@ -405,7 +405,7 @@
                 {
                     "id": 565675786,
                     "emsiId": "KS7G4ML61B2JX1H1003Z",
-                    "name": "Branding",
+                    "name": "",
                     "lastUsed": "2023-08-01",
                     "numberOfMonths": 2,
                     "type": "hard_skill",
@@ -420,7 +420,7 @@
                 {
                     "id": 565688636,
                     "emsiId": "KS126VY6DLPDWFZD5VB8",
-                    "name": "Natural Language Processing",
+                    "name": "",
                     "lastUsed": null,
                     "numberOfMonths": null,
                     "type": "hard_skill",
@@ -429,7 +429,7 @@
                 {
                     "id": 565688637,
                     "emsiId": "KSDJCA4E89LB98JAZ7LZ",
-                    "name": "React.js",
+                    "name": "",
                     "lastUsed": null,
                     "numberOfMonths": null,
                     "type": "hard_skill",
@@ -438,7 +438,7 @@
                 {
                     "id": 565688642,
                     "emsiId": "KS1282M68WL9T4YH3SLF",
-                    "name": "Product Management",
+                    "name": "",
                     "lastUsed": "2022-08-01",
                     "numberOfMonths": 14,
                     "type": "hard_skill",
@@ -447,7 +447,7 @@
                 {
                     "id": 565688643,
                     "emsiId": "KS126C366B3JR150DW3L",
-                    "name": "Medication Therapy Management",
+                    "name": "",
                     "lastUsed": "2021-09-01",
                     "numberOfMonths": 3,
                     "type": "hard_skill",
@@ -456,7 +456,7 @@
                 {
                     "id": 565688644,
                     "emsiId": "KS441846K903WT1RYDKJ",
-                    "name": "Team Management",
+                    "name": "",
                     "lastUsed": null,
                     "numberOfMonths": null,
                     "type": "soft_skill",
@@ -465,7 +465,7 @@
                 {
                     "id": 565688647,
                     "emsiId": "KS1227V6WBR3BH3SJYSZ",
-                    "name": "Information Technology",
+                    "name": "",
                     "lastUsed": null,
                     "numberOfMonths": null,
                     "type": "soft_skill",
@@ -474,7 +474,7 @@
                 {
                     "id": 565688648,
                     "emsiId": "KS122Z36QK3N5097B5JH",
-                    "name": "Web Development",
+                    "name": "",
                     "lastUsed": null,
                     "numberOfMonths": null,
                     "type": "hard_skill",
@@ -483,7 +483,7 @@
                 {
                     "id": 565688651,
                     "emsiId": "KS4424P6G7QVWXC3B756",
-                    "name": "WordPress",
+                    "name": "",
                     "lastUsed": "2022-08-01",
                     "numberOfMonths": 17,
                     "type": "hard_skill",
@@ -492,7 +492,7 @@
                 {
                     "id": 565688653,
                     "emsiId": "KS123Y86V2WGML5T0P44",
-                    "name": "Financial Engineering",
+                    "name": "",
                     "lastUsed": null,
                     "numberOfMonths": null,
                     "type": "hard_skill",
@@ -501,7 +501,7 @@
                 {
                     "id": 565688654,
                     "emsiId": "KS1227G66P02RR405S78",
-                    "name": "Data Processing",
+                    "name": "",
                     "lastUsed": null,
                     "numberOfMonths": null,
                     "type": "hard_skill",
@@ -510,7 +510,7 @@
                 {
                     "id": 565688655,
                     "emsiId": "KS124JZ5VYRZ5MJ85N2B",
-                    "name": "Public Speaking",
+                    "name": "",
                     "lastUsed": null,
                     "numberOfMonths": null,
                     "type": "soft_skill",
@@ -518,16 +518,15 @@
                 }
             ],
             "languages": [
-                "English"
+                ""
             ],
             "summary": "",
             "websites": [
-                "www.linkedin.com/in/meilingmathur",
-                "http://www.linkedin.com/in/meilingmathur"
+                ""
             ],
-            "linkedin": "www.linkedin.com/in/meilingmathur",
-            "totalYearsExperience": 1,
-            "profession": "Developer Intern",
+            "linkedin": "",
+            "totalYearsExperience": ,
+            "profession": "",
             "workExperience": [
                 {
                     "id": 100906153,
